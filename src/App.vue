@@ -42,7 +42,7 @@ export default class App extends Vue {
     'None',
     'Vue',
     'React',
-    'Anugular'
+    'Angular'
   ]
   readonly animalValues = [
     'None',
