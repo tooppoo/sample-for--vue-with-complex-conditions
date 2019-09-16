@@ -1,5 +1,5 @@
 <template>
-  <img alt="Angular logo" src=".../../assets/angular.png">
+  <img alt="Angular logo" src="../../assets/angular.png">
 </template>
 
 <script lang="ts">
