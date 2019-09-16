@@ -31,6 +31,7 @@ import ShowKoujichuSpec from './components/model/show-image-spec/show-koujichu-s
 import ShowVueSpec from './components/model/show-image-spec/framework/show-vue-spec'
 import ShowCatSpec from './components/model/show-image-spec/animal/show-cat-spec'
 import ShowReactSpec from './components/model/show-image-spec/framework/show-react-spec'
+import ShowAngularSpec from './components/model/show-image-spec/framework/show-angular-spec'
 
 @Component({
   components: {
@@ -57,7 +58,8 @@ export default class App extends Vue {
   get frameworkView () {
     const applySpec = applyWithDefault(new ShowKoujichuSpec(), [
       new ShowVueSpec(),
-      new ShowReactSpec()
+      new ShowReactSpec(),
+      new ShowAngularSpec()
     ])
 
     const appliedSpec = applySpec({
