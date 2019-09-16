@@ -3,7 +3,11 @@ import Cat from '../../../animal/Cat.vue'
 
 export default class ShowCatSpec implements ShowImageSpec {
   isSatisfiedBy (param: ShowImageSpecParam): boolean {
-    return param.framework === 'Vue' && param.animal === 'Cat'
+    if (param.animal !== 'Cat') {
+      return false
+    }
+
+    return param.framework === 'Vue' || param.framework === 'None'
   }
 
   readonly shown = Cat
