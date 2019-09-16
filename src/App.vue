@@ -32,6 +32,7 @@ import ShowVueSpec from './components/model/show-image-spec/framework/show-vue-s
 import ShowCatSpec from './components/model/show-image-spec/animal/show-cat-spec'
 import ShowReactSpec from './components/model/show-image-spec/framework/show-react-spec'
 import ShowAngularSpec from './components/model/show-image-spec/framework/show-angular-spec'
+import ShowTurtleSpec from './components/model/show-image-spec/animal/show-turtle-spec'
 
 @Component({
   components: {
@@ -72,7 +73,8 @@ export default class App extends Vue {
 
   get animalView () {
     const applySpec = applyWithDefault(new ShowKoujichuSpec(), [
-      new ShowCatSpec()
+      new ShowCatSpec(),
+      new ShowTurtleSpec()
     ])
 
     const appliedSpec = applySpec({
