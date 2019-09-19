@@ -7,7 +7,7 @@ export default class ShowCatSpec implements ShowImageSpec {
       return false
     }
 
-    return param.framework === 'Vue' || param.framework === 'None'
+    return param.framework === 'Vue'
   }
 
   readonly shown = Cat
