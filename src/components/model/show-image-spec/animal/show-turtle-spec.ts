@@ -7,7 +7,7 @@ export default class ShowTurtleSpec implements ShowImageSpec {
       return false
     }
 
-    return param.framework !== 'Vue'
+    return param.framework !== 'Vue' && param.framework !== 'None'
   }
 
   readonly shown = Turtle
