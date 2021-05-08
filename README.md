@@ -1,4 +1,5 @@
 # sample-for-vue-with-complex-conditions
+[![Node.js CI](https://github.com/tooppoo/sample-for--vue-with-complex-conditions/actions/workflows/test.yml/badge.svg)](https://github.com/tooppoo/sample-for--vue-with-complex-conditions/actions/workflows/test.yml)
 
 ## Project setup
 ```
