@@ -8,6 +8,9 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
+  "engines": {
+    "node": "^12.0.0 || ^14.0.0 || ^16.0.0"
+  },
   "dependencies": {
     "core-js": "3.19.1",
     "vue": "2.6.14",
