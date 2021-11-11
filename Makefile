@@ -4,6 +4,7 @@
 
 init:
 	yarn install
+	yarn add --peer
 
 ci:
 	yarn build
