@@ -2849,9 +2849,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@vue/test-utils@npm:1.2.2"
+"@vue/test-utils@npm:1.3.6":
+  version: 1.3.6
+  resolution: "@vue/test-utils@npm:1.3.6"
   dependencies:
     dom-event-types: ^1.0.0
     lodash: ^4.17.15
@@ -2859,7 +2859,7 @@ __metadata:
   peerDependencies:
     vue: 2.x
     vue-template-compiler: ^2.x
-  checksum: a373ffe4fa35f6d7d64eb5547ba656f8445b23923a5735d64b378061b378515139044fe73d931de1130fd310ad692e575f4826db03a4289737eaa4ff5a45dc98
+  checksum: 9e397fad618c81126180e743bc69acf94a93f80d45cc6182c2a7178a145e92ea26bd1ea2e51c07312907e0c356a1a672bba68c27ffa1b46123c03c3a1c72b321
   languageName: node
   linkType: hard
 
@@ -12975,7 +12975,7 @@ __metadata:
     "@vue/cli-service": 4.5.15
     "@vue/eslint-config-standard": 6.1.0
     "@vue/eslint-config-typescript": 7.0.0
-    "@vue/test-utils": 1.2.2
+    "@vue/test-utils": 1.3.6
     babel-core: 7.0.0-bridge.0
     babel-eslint: 10.1.0
     core-js: 3.19.1
